@@ -14,7 +14,6 @@
 		4AAC0B2D26FFCDB400344B9A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC0B2C26FFCDB400344B9A /* SceneDelegate.m */; };
 		4AAC0B3026FFCDB400344B9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC0B2F26FFCDB400344B9A /* ViewController.m */; };
 		4AAC0B3326FFCDB400344B9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAC0B3126FFCDB400344B9A /* Main.storyboard */; };
-		4AAC0B3526FFCDB800344B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAC0B3426FFCDB800344B9A /* Assets.xcassets */; };
 		4AAC0B3826FFCDB800344B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AAC0B3626FFCDB800344B9A /* LaunchScreen.storyboard */; };
 		4AAC0B3B26FFCDB800344B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC0B3A26FFCDB800344B9A /* main.m */; };
 		4AAC0B4526FFCDB800344B9A /* flixterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC0B4426FFCDB800344B9A /* flixterTests.m */; };
@@ -23,6 +22,7 @@
 		4AAC0B5F26FFCE2900344B9A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC0B5E26FFCE2900344B9A /* MoviesViewController.swift */; };
 		4AAC0B6326FFE85800344B9A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAC0B6226FFE85800344B9A /* MovieCell.swift */; };
 		4AAC0B66270120DA00344B9A /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAC0B65270120DA00344B9A /* AlamofireImage */; };
+		4AAC0B672703CC5700344B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAC0B3426FFCDB800344B9A /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,7 +173,6 @@
 				CB7A398A8A338A01633DAC0F /* Pods-flixterTests.debug.xcconfig */,
 				F8C320BD85B61CDA84053F72 /* Pods-flixterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -303,7 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AAC0B3826FFCDB800344B9A /* LaunchScreen.storyboard in Resources */,
-				4AAC0B3526FFCDB800344B9A /* Assets.xcassets in Resources */,
+				4AAC0B672703CC5700344B9A /* Assets.xcassets in Resources */,
 				4AAC0B3326FFCDB400344B9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,6 +600,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
